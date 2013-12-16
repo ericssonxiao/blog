@@ -16,7 +16,7 @@ owner:
   facebook: https://www.facebook.com/ming.xiao.908 
   github: ericssonxiao
   stackexchange:  
-  linkedin: http://www.linkedin.com/pub/%C3%A9ric-xiao/10/400/b70    
+  linkedin: http://www.linkedin.com/in/%C3%A9ric-xiao/10/400/b70    
   instagram:      
   flickr:         
   tumblr:         
@@ -44,6 +44,7 @@ links:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
+auto:        true
 future:      true
 pygments:    true
 markdown:    kramdown
