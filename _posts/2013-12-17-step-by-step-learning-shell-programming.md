@@ -1,7 +1,8 @@
-﻿---
+---
 layout: post
 title: Step by step learning shell programming
 description: ""
+modified: 2013-12-17
 category: articles
 tags: [step by step, shell, introduce, linux]
 image:
