@@ -41,7 +41,7 @@ Unix philosophy:  Write programs that do one thing and do it well. Write program
 6. chmod 744 hello.sh (making the script executable).
 7. sh hello.sh or ./hello.sh (running the script)
 
-Let's see your first shell script.
+#### Let's see your first shell script.
 1. hello.sh
 {% highlight css %}
 #!/usr/bin/env bash
@@ -217,18 +217,19 @@ Hello World!
 Enjoy!
 
 **Related Web Resources**
-* [Learning Shell Scripting Language: A Guide from Newbies to System Administrator]: <http://www.tecmint.com/learning-shell-scripting-language-a-guide-from-newbies-to-system-administrator/>
-* [Understand Linux Shell and Basic Shell Scripting Language Tips – Part I]: <http://www.tecmint.com/understand-linux-shell-and-basic-shell-scripting-language-tips/>
-* [Learning Debian GNU/Linux]: <http://oreilly.com/openbook/debian/book/ch13_03.html>
-* [Learning Red Hat Linux, 2nd Edition Learning Red Hat Linux, 2nd Edition]: <http://oreilly.com/catalog/redhat2/chapter/ch13.html>
-* [bash shell programming in one hour]: <http://benpfaff.org/writings/shell/shell.pdf>
-* [Output Hollywood-hacker-scene from a shell]: <http://unix.stackexchange.com/questions/21347/output-hollywood-hacker-scene-from-a-shell>
-* [stackexchange questions]: <http://unix.stackexchange.com/questions>
-* [Bash shell-scripting libraries]: <http://dberkholz.com/2011/04/07/bash-shell-scripting-libraries/>
-* [log4sh version 1.4.2]: <http://svn.code.sf.net/p/log4sh/svn/trunk/source/1.4/doc/log4sh.html#id2479858>
-* [shell_book_blinn]: <http://www.cs.uleth.ca/~holzmann/C/shells/shell_book_blinn/>
-* [Wicked Cool Shell Scripts: The Library]: <http://intuitive.com/wicked/wicked-cool-shell-script-library.shtml>
-* [shell lib]: <http://www.vxdev.com/docs/vx55man/vxworks/ref/shellLib.html>
+
+* [Learning Shell Scripting Language: A Guide from Newbies to System Administrator](http://www.tecmint.com/learning-shell-scripting-language-a-guide-from-newbies-to-system-administrator/)
+* [Understand Linux Shell and Basic Shell Scripting Language Tips – Part I](http://www.tecmint.com/understand-linux-shell-and-basic-shell-scripting-language-tips/)
+* [Learning Debian GNU/Linux](http://oreilly.com/openbook/debian/book/ch13_03.html)
+* [Learning Red Hat Linux, 2nd Edition Learning Red Hat Linux, 2nd Edition](http://oreilly.com/catalog/redhat2/chapter/ch13.html)
+* [bash shell programming in one hour](http://benpfaff.org/writings/shell/shell.pdf)
+* [Output Hollywood-hacker-scene from a shell](http://unix.stackexchange.com/questions/21347/output-hollywood-hacker-scene-from-a-shell)
+* [stackexchange questions](http://unix.stackexchange.com/questions)
+* [Bash shell-scripting libraries](http://dberkholz.com/2011/04/07/bash-shell-scripting-libraries/)
+* [log4sh version 1.4.2](http://svn.code.sf.net/p/log4sh/svn/trunk/source/1.4/doc/log4sh.html#id2479858)
+* [shell_book_blinn](http://www.cs.uleth.ca/~holzmann/C/shells/shell_book_blinn/)
+* [Wicked Cool Shell Scripts: The Library](http://intuitive.com/wicked/wicked-cool-shell-script-library.shtml)
+* [shell lib](http://www.vxdev.com/docs/vx55man/vxworks/ref/shellLib.html)
 
 * * * * * *
 <div class="sample_footer">
