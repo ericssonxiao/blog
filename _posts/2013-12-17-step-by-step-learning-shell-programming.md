@@ -59,7 +59,7 @@ Hello World!
 ```
 
 2.show_process.sh
-{% highlight css %}
+``` bash
 #!/usr/bin/env bash
 # show process.sh
 set -eo pipefail
@@ -67,10 +67,10 @@ echo "hello $USER"
 echo "I'm " $USER " and will be telling you about the current process"
 echo "Running Process List"
 ps -aux
-{% endhighlight %}
+```
 
 **Sample Output:**
-{% highlight css %}
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ ./show_process.sh
 hello ericssonxiao
 I'm  ericssonxiao  and will be telling you about the current process
@@ -89,10 +89,10 @@ root        11  0.0  0.0      0     0 ?        S<   17:33   0:00 [netns]
 root        12  0.0  0.0      0     0 ?        S    17:33   0:00 [sync_supers]
 root        13  0.0  0.0      0     0 ?        S    17:33   0:00 [bdi-default]
 root        14  0.0  0.0      0     0 ?        S<   17:33   0:00 [kintegrityd]
-{% endhighlight %}
+```
 
 3.interactive.sh
-{% highlight css %}
+``` bash
 #!/usr/bin/env bash
 # interactive.sh
 set -eo pipefail
@@ -103,10 +103,10 @@ read b;
 echo "Thanks Mr./Mrs. $a $b for telling us your name";
 echo "****************************************************";
 echo "Mr./Mrs. $b, it's time to say you good bye";
-{% endhighlight %}
+```
 
 **Sample Output:**
-{% highlight css %}
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ ./interactive.sh
 Hey what's your first name?
 eric
@@ -115,15 +115,17 @@ xiao
 Thanks Mr./Mrs. eric xiao for telling us your name
 ****************************************************
 Mr./Mrs. xiao, it's time to say you good bye
-{% endhighlight %}
+```
 
 4.shell track options，using **set**
+``` console
 set -ex 
 set -eo pipefail
+```
 using **set -x** could produce many info, so you can use **echo** or **print** for trace.
  
 **Script 001:**
-{% highlight css %}
+``` bash
 #!/usr/bin/env bash
 # this is simple test for set command
 # set -eo pipefail
@@ -137,10 +139,10 @@ then
 else
     echo "Neither can i, i'm just an example shell script"
 fi
-{% endhighlight %}
+```
 
 **Sample Output:**
-{% highlight css %}
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ ./ex2.sh
 + echo -n 'can you write device drivers?'
 can you write device drivers?+ read answer
@@ -150,21 +152,21 @@ eric
 ./ex2.sh: line 8: [: too many arguments
 + echo 'Neither can i, i'\''m just an example shell script'
 Neither can i, i'm just an example shell script
-{% endhighlight %}
+```
 
 **Sample Output:**
 use bash --debug command:
-{% highlight css %}
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ bash --debug ex2.sh
 bash --debug ex2.sh
 can you write device drivers?y
 ex2.sh: line 8: [: too many arguments
 Neither can i, i'm just an example shell script
-{% endhighlight %}
+```
 
 **Sample Output:**
 use bash --verbose command:
-{% highlight css %}
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ bash --verbose ex2.sh
 bash --verbose ex2.sh
 #!/usr/bin/env bash
@@ -183,10 +185,10 @@ else
 fi
 ex2.sh: line 8: [: too many arguments
 Neither can i, i'm just an example shell script
-{% endhighlight %}
+```
 
 **Script 002:**
-{% highlight css %}
+``` bash
 #!/usr/bin/env bash
 # hello world
 set -ex
@@ -198,10 +200,10 @@ echo $VAR
 echo $VAR
 changeVar
 echo $VAR
-{% endhighlight %}
+```
 
 **Sample Output:**
-{% highlight css %}
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ ./ex1.sh
 + VAR='Hello World!'
 + echo Hello 'World!'
@@ -212,12 +214,12 @@ Hello World!
 local var
 + echo Hello 'World!'
 Hello World!
-{% endhighlight %}
+```
 
 Enjoy!
 
 **Related Web Resources**
-[^1]: <http://www.tecmint.com/learning-shell-scripting-language-a-guide-from-newbies-to-system-administrator/>
+[Learning Shell Scripting Language: A Guide from Newbies to System Administrator]: <http://www.tecmint.com/learning-shell-scripting-language-a-guide-from-newbies-to-system-administrator/>
 [^2]: <http://www.tecmint.com/understand-linux-shell-and-basic-shell-scripting-language-tips/>
 [^3]: <http://oreilly.com/openbook/debian/book/ch13_03.html>
 [^4]: <http://oreilly.com/catalog/redhat2/chapter/ch13.html>
