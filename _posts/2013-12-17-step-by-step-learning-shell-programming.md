@@ -12,8 +12,6 @@ image:
 comments: true
 ---
 
-# Step by Step Learning Shell Programming
-
 First of all , let's understand what is shell from a picture.
 
 ![Linux Image]({{ site.url }}/images/shell01.png)
