@@ -2,15 +2,19 @@
 layout: post
 title: Step by step learning shell programming
 description: ""
-modified: 2013-12-17
-category: shell
+category: articles
 tags: [step by step, shell, introduce, linux]
+image:
+  feature: so-simple-sample-image-5.jpg
+  credit: Michael Rose
+  creditlink: http://mademistakes.com
 comments: true
 ---
 
-#Step by Step Learning Shell Programming
+# Step by Step Learning Shell Programming
 
 First of all , let's understand what is shell from a picture.
+
 ![Linux Image]({{ site.url }}/images/shell01.png)
 {: .pull-centre}
 
@@ -40,18 +44,18 @@ Unix philosophy:  Write programs that do one thing and do it well. Write program
 
 Let's see your first shell script.
 1. hello.sh
-{% highlight css %}
+~~~ bash
 #!/usr/bin/env bash
 # hello.sh
 set -eo pipefail
 echo "Hello World!"
-{% endhighlight %}
+~~~
 
 **Sample Output:**
-{% highlight css %}
+~~~ console
 ericssonxiao@ubuntu:~/workspace/shell$ ./hello.sh
 Hello World!
-{% endhighlight %}
+~~~
 
 2.show_process.sh
 {% highlight css %}
