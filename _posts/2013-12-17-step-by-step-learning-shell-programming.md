@@ -19,29 +19,29 @@ First of all , let's understand what is shell from a picture.
 ![Linux Image]({{ site.url }}/images/shell01.png)
 {: .pull-centre}
 
-1.**Shell**: A Command-Line Interpretor that connects a user to **Operating System** and allows to execute the commands or by creating text script.
-2.**Process**: Any task that a user run in the system is called a process. A process is little more complex than just a task.
+1. **Shell**: A Command-Line Interpretor that connects a user to **Operating System** and allows to execute the commands or by creating text script.
+2. **Process**: Any task that a user run in the system is called a process. A process is little more complex than just a task.
 Unix philosophy:  Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.
 
-3.**Bourne shell** : The Bourne shell was one of the major shells used in early versions and became a de facto standard. It was written by **Stephen Bourne** at **Bell Labs**. Every Unix-like system has at least one shell compatible with the Bourne shell. The Bourne shell program name is “**sh**” and it is typically located in the file system hierarchy at **/bin/sh**.
+3. **Bourne shell** : The Bourne shell was one of the major shells used in early versions and became a de facto standard. It was written by **Stephen Bourne** at **Bell Labs**. Every Unix-like system has at least one shell compatible with the Bourne shell. The Bourne shell program name is “**sh**” and it is typically located in the file system hierarchy at **/bin/sh**.
 
 ## Basics of Shell Programming
-1.To get a Linux shell, you need to start a terminal.
-2.To see what shell you have, **run: echo $SHELL**.
-3.In Linux, the dollar sign (**$**) stands for a shell variable.
-4.The ‘**echo**‘ command just returns whatever you type in.
-5.The pipeline instruction (**|**) comes to rescue, when chaining several commands.
-6.Linux commands have their own syntax, Linux won’t forgive you whatsoever is the mistakes. If you get a command wrong, you won’t flunk or damage anything, but it won’t work.
-7.**#!/usr/bin/env bash** – It is called shebang. It is written at the top of a shell script and it passes the instruction to the program **/bin/sh**.
+1. To get a Linux shell, you need to start a terminal.
+2. To see what shell you have, **run: echo $SHELL**.
+3. In Linux, the dollar sign (**$**) stands for a shell variable.
+4. The ‘**echo**‘ command just returns whatever you type in.
+5. The pipeline instruction (**|**) comes to rescue, when chaining several commands.
+6. Linux commands have their own syntax, Linux won’t forgive you whatsoever is the mistakes. If you get a command wrong, you won’t flunk or damage anything, but it won’t work.
+7. **#!/usr/bin/env bash** – It is called shebang. It is written at the top of a shell script and it passes the instruction to the program **/bin/sh**.
 
 ### Process of writing and executing a script
-1.Open terminal.
-2.Navigate to the place where you want to create script using ‘cd‘ command.
-3.Cd (enter) [This will bring the prompt at Your home Directory].
-4.touch hello.sh (Here we named the script as hello, remember the ‘.sh‘ extension is compulsory).
-5.vi hello.sh (nano hello.sh) [You can use your favourite editor, to edit the script].
-6.chmod 744 hello.sh (making the script executable).
-7.sh hello.sh or ./hello.sh (running the script)
+1. Open terminal.
+2. Navigate to the place where you want to create script using ‘cd‘ command.
+3. Cd (enter) [This will bring the prompt at Your home Directory].
+4. touch hello.sh (Here we named the script as hello, remember the ‘.sh‘ extension is compulsory).
+5. vi hello.sh (nano hello.sh) [You can use your favourite editor, to edit the script].
+6. chmod 744 hello.sh (making the script executable).
+7. sh hello.sh or ./hello.sh (running the script)
 
 Let's see your first shell script.
 1. hello.sh
@@ -58,7 +58,7 @@ ericssonxiao@ubuntu:~/workspace/shell$ ./hello.sh
 Hello World!
 ```
 
-2.show_process.sh
+2. show_process.sh
 ``` bash
 #!/usr/bin/env bash
 # show process.sh
@@ -91,7 +91,7 @@ root        13  0.0  0.0      0     0 ?        S    17:33   0:00 [bdi-default]
 root        14  0.0  0.0      0     0 ?        S<   17:33   0:00 [kintegrityd]
 ```
 
-3.interactive.sh
+3. interactive.sh
 ``` bash
 #!/usr/bin/env bash
 # interactive.sh
@@ -117,14 +117,14 @@ Thanks Mr./Mrs. eric xiao for telling us your name
 Mr./Mrs. xiao, it's time to say you good bye
 ```
 
-4.shell track options，using **set**
+4. shell track options，using **set**
 ``` console
 set -ex 
 set -eo pipefail
 ```
 using **set -x** could produce many info, so you can use **echo** or **print** for trace.
  
-**Script 001:**
+5. **Script 001:**
 ``` bash
 #!/usr/bin/env bash
 # this is simple test for set command
@@ -187,7 +187,7 @@ ex2.sh: line 8: [: too many arguments
 Neither can i, i'm just an example shell script
 ```
 
-**Script 002:**
+6. **Script 002:**
 ``` bash
 #!/usr/bin/env bash
 # hello world
