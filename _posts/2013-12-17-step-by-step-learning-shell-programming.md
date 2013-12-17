@@ -28,9 +28,9 @@ Unix philosophy:  Write programs that do one thing and do it well. Write program
 2. To see what shell you have, **run: echo $SHELL**.
 3. In Linux, the dollar sign (**$**) stands for a shell variable.
 4. The ‘**echo**‘ command just returns whatever you type in.
-5. The pipeline instruction **|** comes to rescue, when chaining several commands.
+5. The pipeline instruction comes to rescue, when chaining several commands.
 6. Linux commands have their own syntax, Linux won’t forgive you whatsoever is the mistakes. If you get a command wrong, you won’t flunk or damage anything, but it won’t work.
-7. **#!/usr/bin/env bash** – It is called shebang. It is written at the top of a shell script and it passes the instruction to the program **/bin/sh**.
+7. **#!/usr/bin/env bash** – It is called shell. It is written at the top of a shell script and it passes the instruction to the program **/bin/sh**.
 
 ### Process of writing and executing a script
 1. Open terminal.
