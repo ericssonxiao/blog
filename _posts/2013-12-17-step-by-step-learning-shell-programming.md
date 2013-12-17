@@ -44,18 +44,18 @@ Unix philosophy:  Write programs that do one thing and do it well. Write program
 
 Let's see your first shell script.
 1. hello.sh
-~~~ bash
+``` bash
 #!/usr/bin/env bash
 # hello.sh
 set -eo pipefail
 echo "Hello World!"
-~~~
+```
 
 **Sample Output:**
-~~~ console
+``` console
 ericssonxiao@ubuntu:~/workspace/shell$ ./hello.sh
 Hello World!
-~~~
+```
 
 2.show_process.sh
 {% highlight css %}
