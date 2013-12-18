@@ -11,8 +11,11 @@ comments: true
 ## The Zen of Python
 
 > Beautiful is better than ugly.
+
 > Explicit is better than implicit.
+
 > Simple is better than complex.
+
 > Complex is better than complicated.
 > Flat is better than nested.
 > Sparse is better than dense.
@@ -33,8 +36,11 @@ comments: true
 ## Python之禅
 
 > 美比丑好
+
 > 直言不讳比心照不宣好
+
 > 简单比复杂好
+
 > 复杂比难以理解好
 
 > 平面的比嵌套的好
