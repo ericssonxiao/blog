@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the zen of python
+title: The zen of python
 description: ""
 modified: 2013-12-17
 category: articles
@@ -10,7 +10,7 @@ comments: true
 
 ## The Zen of Python
 
-Beautiful is better than ugly.
+> Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated.
@@ -32,7 +32,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## Python之禅
 
-美比丑好
+> 美比丑好
 直言不讳比心照不宣好
 简单比复杂好
 复杂比难以理解好
