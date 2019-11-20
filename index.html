@@ -1,12 +1,23 @@
 ---
-layout: page
-title: Latest Posts
-description: "A simple and clean responsive Jekyll theme for words and photos."
-tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+layout: default
 ---
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+{% include hero-section.html %}
+
+{% include about-section.html %}
+
+{% include skills-section.html %}
+
+{% include experience-section.html %}
+
+{% include education-section.html %}
+
+{% include services-section.html %}
+
+{% include portfolio-section.html %}
+
+{% include testimonial-section.html %}
+
+{% include client-section.html %}
+
+{% include blog-section.html %}

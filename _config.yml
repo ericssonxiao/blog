@@ -1,70 +1,28 @@
-title:            ericsson.xiao's blog
-description:      Welcome to visit my blog.
-logo:             site-logo.png
-disqus_shortname: 
-search:           true
-#Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://ericssonxiao.github.io/blog/
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Owner/author information
-owner:
-  name:           ericsson.xiao
-  avatar:         bio-photo.jpg
-  email:          ericssonxiao@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: ericssonxiao
-  facebook: https://www.facebook.com/ming.xiao.908 
-  github: ericssonxiao
-  stackexchange: ericssonxiao
-  linkedin: ericssonxiao
-  instagram: ericssonxiao
-  flickr:         
-  tumblr: ericssonxiao         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about
-  - title: Articles
-    url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+include:
+  - _pages
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
-auto:        true
-future:      true
-pygments:    true
-markdown:    kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
