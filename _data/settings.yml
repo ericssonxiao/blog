@@ -1,11 +1,11 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross - Jekyll Portfolio Template
+title: Eric Xiao
 logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: ericssonxiao@gmail.com
+phone: 
+address: Montreal, Canada
 
 menu:
 - {name: About, link: '/about/'}
@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Eric Xiao <br> Full stack programmer.
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -290,4 +290,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: ericssonxiao@gmail.com
