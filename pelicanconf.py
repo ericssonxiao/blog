@@ -5,7 +5,7 @@ from datetime import datetime
 
 AUTHOR = "eric xiao"
 SITENAME = "Eric Xiao's Blog"
-#SITEURL = ""
+SITEURL = "www.ericssonxiao.com"
 SITETITLE = "Eric Xiao's Blog"
 SITESUBTITLE = "Eric Xiao's Blog"
 SITEDESCRIPTION = "Eric Xiao's Thoughts and Writings"
@@ -31,8 +31,8 @@ OG_LOCALE = 'en_US'
 LOCALE = 'en_US'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'blog/feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'blog/feeds/{slug}.atom.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
@@ -44,10 +44,10 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/ericssonxiao'),
-          ('linkedin', 'https://github.com/ericssonxiao'),
+          ('linkedin', 'https://www.linkedin.com/in/ericssonxiao/'),
           ('facebook', 'https://github.com/ericssonxiao'),
           ('twitter', 'https://github.com/ericssonxiao'),
-          ('rss', '/blog/feeds/all.atom.xml'),)
+          ('rss', 'feeds/all.atom.xml'),)
 
 # Menu
 DEFAULT_PAGINATION = 10
@@ -83,7 +83,7 @@ CUSTOM_CSS = 'static/custom.css'
 
 USE_LESS = True
 
-# Third page service , need to register
+# Third page service
 DISQUS_SITENAME = "ericssonxiao"
 ADD_THIS_ID = 'ra-5e6fab73d0f4f611'
 
