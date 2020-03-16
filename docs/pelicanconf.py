@@ -5,11 +5,11 @@ from datetime import datetime
 
 AUTHOR = "eric xiao"
 SITENAME = "Eric Xiao's Blog"
-SITEURL = "www.ericssonxiao.com"
+#SITEURL = ""
 SITETITLE = "Eric Xiao's Blog"
 SITESUBTITLE = "Eric Xiao's Blog"
 SITEDESCRIPTION = "Eric Xiao's Thoughts and Writings"
-#SITELOGO = '/images/profile.png'
+SITELOGO = '/images/ericxiao.jpeg'
 #FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#4682B4'
 PYGMENTS_STYLE = 'default'
